@@ -12,6 +12,7 @@ const siteMetadata = {
 };
 
 module.exports = {
+  pathPrefix: '/my-mapp',
   siteMetadata,
   plugins: [
     'gatsby-plugin-resolve-src',
